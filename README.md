@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # NeuroGPU — GPU-Accelerated Brain CT Analysis
 
 NeuroGPU is a local, research-only prototype for training and serving a three-class classifier on the [Brain Stroke CT Dataset](https://www.kaggle.com/datasets/ozguraslank/brain-stroke-ct-dataset). It makes no clinical diagnosis, does not rule out stroke, does not store uploads, and must not be used for treatment decisions.
