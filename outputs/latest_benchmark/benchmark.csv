@@ -1,0 +1,6 @@
+device,precision,batch_size,samples,median_model_ms,p95_model_ms,throughput_images_per_sec,peak_gpu_memory_mb,status,error
+cpu,fp32,1.0,20.0,21.001700000851997,23.292875001425273,47.615193053868595,,,
+cpu,fp32,4.0,20.0,62.67585000023246,77.8132250008639,63.820434824340865,,,
+cpu,fp32,8.0,20.0,115.94725000031758,126.41614499898424,68.99689298347384,,,
+cpu,fp32,16.0,20.0,244.3283499997051,261.07909999846015,65.48564667186314,,,
+cuda,,,,,,,,unsupported_or_failed,CUDA was requested but is unavailable. Install a CUDA-compatible PyTorch build or use cpu.

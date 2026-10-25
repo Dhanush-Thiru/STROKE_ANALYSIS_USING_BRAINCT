@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "device": "cpu",
+      "precision": "fp32",
+      "batch_size": 1,
+      "samples": 20,
+      "median_model_ms": 21.001700000851997,
+      "p95_model_ms": 23.292875001425273,
+      "throughput_images_per_sec": 47.615193053868595,
+      "peak_gpu_memory_mb": null
+    },
+    {
+      "device": "cpu",
+      "precision": "fp32",
+      "batch_size": 4,
+      "samples": 20,
+      "median_model_ms": 62.67585000023246,
+      "p95_model_ms": 77.8132250008639,
+      "throughput_images_per_sec": 63.820434824340865,
+      "peak_gpu_memory_mb": null
+    },
+    {
+      "device": "cpu",
+      "precision": "fp32",
+      "batch_size": 8,
+      "samples": 20,
+      "median_model_ms": 115.94725000031758,
+      "p95_model_ms": 126.41614499898424,
+      "throughput_images_per_sec": 68.99689298347384,
+      "peak_gpu_memory_mb": null
+    },
+    {
+      "device": "cpu",
+      "precision": "fp32",
+      "batch_size": 16,
+      "samples": 20,
+      "median_model_ms": 244.3283499997051,
+      "p95_model_ms": 261.07909999846015,
+      "throughput_images_per_sec": 65.48564667186314,
+      "peak_gpu_memory_mb": null
+    },
+    {
+      "device": "cuda",
+      "status": "unsupported_or_failed",
+      "error": "CUDA was requested but is unavailable. Install a CUDA-compatible PyTorch build or use cpu."
+    }
+  ],
+  "note": "Model-only steady-state timing; GPU values exist only when CUDA actually ran."
+}

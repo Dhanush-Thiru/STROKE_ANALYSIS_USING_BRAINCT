@@ -1,0 +1,1 @@
+image-level stratified provisional split; no reliable patient/study identifiers were detected. 19 exact duplicate PNG copies were excluded deterministically before splitting; see excluded_exact_duplicates.csv. This is not patient-independent validation unless group IDs were verified.
